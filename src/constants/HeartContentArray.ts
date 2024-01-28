@@ -9,4 +9,5 @@ export const heartContentArray = [
   "You're the Jumbling Towers champion!",
   "I love playing board games with you",
   "Driving you around is one of my favorite things",
+  "Let's play Mario Party (fuck Daisy)",
 ];
