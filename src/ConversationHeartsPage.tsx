@@ -26,9 +26,6 @@ export const ConversationHeartsPage = () => {
         <div className="conversationHeartText">
             {heartContentArray[activeIndex]}
           </div>
-        {/*<div className="conversationHeartText">*/}
-        {/*  {heartContentArray[activeIndex]}*/}
-        {/*</div>*/}
       </div>
       <Button
         className="button"
