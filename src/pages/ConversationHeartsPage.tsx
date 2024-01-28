@@ -9,14 +9,7 @@ export const ConversationHeartsPage = () => {
   const [activeColor, setActiveColor] = useState(Math.floor(Math.random()*16777215).toString(16));
 
   const handleNextClick = () => {
-    let newIndex;
-    const randomNum = Math.floor(Math.random() * heartContentArray.length);
-
-    if (randomNum === activeIndex) {
-      newIndex = Math.floor(Math.random() * heartContentArray.length);
-    } else {
-      newIndex = randomNum;
-    }
+    const newIndex = Math.floor(Math.random() * heartContentArray.length);
 
     setActiveIndex(newIndex);
     setActiveColor(Math.floor(Math.random()*16777215).toString(16));
