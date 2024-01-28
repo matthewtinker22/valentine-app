@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import LandingPage from "./Pages/LandingPage";
+import LandingPage from "./pages/LandingPage";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import YesValentinePage from "./Pages/YesValentinePage";
-import NoValentinePage from "./Pages/NoValentinePage";
-import ConversationHeartsPage from "./Pages/ConversationHeartsPage";
+import YesValentinePage from "./pages/YesValentinePage";
+import NoValentinePage from "./pages/NoValentinePage";
+import ConversationHeartsPage from "./pages/ConversationHeartsPage";
 
 function App() {
   return (
