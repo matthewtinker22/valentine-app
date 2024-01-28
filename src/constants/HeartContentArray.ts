@@ -6,4 +6,7 @@ export const heartContentArray = [
   "sweet potato pie",
   "You're the cutest ever",
   "Let's go dancing together",
+  "You're the Jumbling Towers champion!",
+  "I love playing board games with you",
+  "Driving you around is one of my favorite things",
 ];
