@@ -12,4 +12,12 @@ export const heartContentArray = [
   "Let's play Mario Party (fuck Daisy)",
   "Thank you for being you",
   "I love you",
+  "I love being able to clean your dishes",
+  "You're the best travel partner",
+  "You're my favorite person",
+  "You are so so so so so so beautiful",
+  "You make me feel so special and so lucky",
+  "I'm so thankful for you",
+  "I love holding your hand",
+  "I want to kiss your face",
 ];

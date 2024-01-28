@@ -1,4 +1,4 @@
-import '../scss/YesValentinePage.scss';
+import './YesValentinePage.scss';
 import {Link} from "react-router-dom";
 import {Button} from "@mui/material";
 
