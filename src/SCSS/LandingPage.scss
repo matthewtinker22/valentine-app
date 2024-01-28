@@ -1,0 +1,27 @@
+.button {
+  height: 5rem;
+  width: 10rem;
+}
+
+.buttonContainer {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.landingPageContainer {
+  display: inline-block;
+  width: 100%;
+}
+
+.landingPageText {
+  padding-bottom: 5rem;
+}
+
+#no-button {
+  background-color: #CD5C5C;
+}
+
+#yes-button {
+  background-color: #FFA07A;
+}
