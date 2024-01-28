@@ -1,7 +1,7 @@
 import {Button} from "@mui/material";
-import "../scss/ConversationHeartsPage.scss";
-import {heartContentArray} from "../constants/HeartContentArray";
-import {useEffect, useState} from "react";
+import "./ConversationHeartsPage.scss";
+import {heartContentArray} from "./HeartContentArray";
+import {useState} from "react";
 import {Favorite} from "@mui/icons-material";
 
 export const ConversationHeartsPage = () => {

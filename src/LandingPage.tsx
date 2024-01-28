@@ -1,5 +1,5 @@
 import {Button} from "@mui/material";
-import '../scss/LandingPage.scss';
+import './LandingPage.scss';
 import {Link} from "react-router-dom";
 
 export const LandingPage = () => {
