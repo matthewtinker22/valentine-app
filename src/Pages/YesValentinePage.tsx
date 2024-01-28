@@ -13,7 +13,7 @@ export const YesValentinePage = () => {
       </h1>
       <div className="buttonContainer">
         <div>
-          <Link to="/yesValentine">
+          <Link to="/conversationHearts">
             <Button
               className="button"
               id="show-me-button"
