@@ -3,6 +3,7 @@ import "./ConversationHeartsPage.scss";
 import {heartContentArray} from "./HeartContentArray";
 import {useState} from "react";
 import {Favorite} from "@mui/icons-material";
+import {Link} from "react-router-dom";
 
 export const ConversationHeartsPage = () => {
   const [activeIndex, setActiveIndex] = useState(Math.floor(Math.random() * heartContentArray.length));
@@ -24,17 +25,30 @@ export const ConversationHeartsPage = () => {
           style={{"color": activeColor, "width": "20rem", "height": "20rem"}}
         />
         <div className="conversationHeartText">
-            {heartContentArray[activeIndex]}
-          </div>
+          {heartContentArray[activeIndex]}
+        </div>
       </div>
-      <Button
-        className="button"
-        id="next-button"
-        variant="contained"
-        onClick={handleNextClick}
-      >
-        Next
-      </Button>
+      <div className="buttonContainer">
+        <div>
+          <Link to="/">
+            <Button
+              className="button"
+              id="home-button"
+              variant="contained"
+            >
+              Home
+            </Button>
+          </Link>
+        </div>
+        <Button
+          className="button"
+          id="next-button"
+          variant="contained"
+          onClick={handleNextClick}
+        >
+          Next
+        </Button>
+      </div>
     </div>
   )
 }
