@@ -8,11 +8,10 @@ import {Link, useMatch} from "react-router-dom";
 export const ConversationHeartsPage = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [activeColor, setActiveColor] = useState(Math.floor(Math.random()*16777215).toString(16));
-  const [randomArray, setRandomArray] = useState(heartContentArray.sort(() => Math.random() - 0.5));
 
-  // const randomArray = useMemo(() => {
-  //   return heartContentArray.sort(() => Math.random() - 0.5);
-  // }, []);
+  const randomArray = useMemo(() => {
+    return heartContentArray.sort(() => Math.random() - 0.5);
+  }, []);
 
   const handleNextClick = useCallback(() => {
     let newIndex;
