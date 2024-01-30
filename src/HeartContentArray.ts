@@ -39,4 +39,7 @@ export const heartContentArray = [
   "I want to squeeze your butt",
   "*whispers* lil bitsssss",
   "You tryna... cuddle?",
+  "You're a superstar!",
+  "My little storm cloud",
+  "My little venus fly trap",
 ];
