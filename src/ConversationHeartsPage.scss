@@ -1,3 +1,14 @@
+.button {
+  height: 5rem;
+  width: 10rem;
+}
+
+.buttonContainer {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
 .conversationHeartContainer {
   font-size: x-large;
   padding-bottom: 5rem;
@@ -17,9 +28,10 @@
 
 #home-button {
   background-color: #9E675B;
-  //Keep these colors (different shades of green) just in case
-  //background-color: #116F0B;
-  //background-color: #008000;
+}
+
+#list-button {
+  background-color: #10640A;
 }
 
 #next-button {
