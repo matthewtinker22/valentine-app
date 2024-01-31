@@ -13,6 +13,19 @@ export const ConversationHeartsPage = () => {
     return heartContentArray.sort(() => Math.random() - 0.5);
   }, []);
 
+  const handleBackClick = useCallback(() => {
+    let newIndex;
+
+    if (activeIndex !== 0) {
+      newIndex = activeIndex - 1;
+    } else {
+      newIndex = randomArray.length - 1;
+    }
+
+    setActiveIndex(newIndex);
+    setActiveColor(Math.floor(Math.random()*16777215).toString(16));
+  }, [activeIndex, randomArray.length]);
+
   const handleNextClick = useCallback(() => {
     let newIndex;
 
@@ -25,6 +38,10 @@ export const ConversationHeartsPage = () => {
     setActiveIndex(newIndex);
     setActiveColor(Math.floor(Math.random()*16777215).toString(16));
   }, [activeIndex, randomArray.length]);
+
+  useEffect(() => {
+    console.debug('randomArray:', randomArray);
+  }, [randomArray]);
 
   return (
     <div className="conversationHeartsPageContainer">
@@ -42,6 +59,16 @@ export const ConversationHeartsPage = () => {
         <div>
           <Button
             className="button"
+            id="back-button"
+            variant="contained"
+            onClick={handleBackClick}
+          >
+            Back
+          </Button>
+        </div>
+        <div>
+          <Button
+            className="button"
             id="next-button"
             variant="contained"
             onClick={handleNextClick}
@@ -51,16 +78,27 @@ export const ConversationHeartsPage = () => {
         </div>
       </div>
       <div>
-        <Link to="/conversationHeartsList">
+        <Link to='/'>
           <Button
             className="button"
-            id="list-button"
+            id="home-button"
             variant="contained"
           >
-            See all conversation hearts :)
+            Home
           </Button>
         </Link>
       </div>
+      {/*<div>*/}
+      {/*  <Link to="/conversationHeartsList">*/}
+      {/*    <Button*/}
+      {/*      className="button"*/}
+      {/*      id="list-button"*/}
+      {/*      variant="contained"*/}
+      {/*    >*/}
+      {/*      See all conversation hearts :)*/}
+      {/*    </Button>*/}
+      {/*  </Link>*/}
+      {/*</div>*/}
     </div>
   )
 }
