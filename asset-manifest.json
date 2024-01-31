@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/valentine-app/static/css/main.6c8de0ee.css",
-    "main.js": "/valentine-app/static/js/main.3b732864.js",
+    "main.js": "/valentine-app/static/js/main.1ad0df77.js",
     "static/js/787.2ed30da1.chunk.js": "/valentine-app/static/js/787.2ed30da1.chunk.js",
     "index.html": "/valentine-app/index.html",
     "main.6c8de0ee.css.map": "/valentine-app/static/css/main.6c8de0ee.css.map",
-    "main.3b732864.js.map": "/valentine-app/static/js/main.3b732864.js.map",
+    "main.1ad0df77.js.map": "/valentine-app/static/js/main.1ad0df77.js.map",
     "787.2ed30da1.chunk.js.map": "/valentine-app/static/js/787.2ed30da1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6c8de0ee.css",
-    "static/js/main.3b732864.js"
+    "static/js/main.1ad0df77.js"
   ]
 }
