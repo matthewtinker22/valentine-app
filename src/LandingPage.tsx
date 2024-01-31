@@ -7,7 +7,7 @@ export const LandingPage = () => {
   return (
     <div className="landingPageContainer">
       <h1 className="landingPageText">
-        Will you be my Valentine, Elle?
+        Elle, will you be my Valentine?
       </h1>
       <div className="buttonContainer">
         <div>
