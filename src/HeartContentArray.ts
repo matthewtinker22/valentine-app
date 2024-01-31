@@ -42,4 +42,6 @@ export const heartContentArray = [
   "You're a superstar!",
   "My little storm cloud",
   "My little venus fly trap",
+  "Baby Cakes",
+  "U R Kenough",
 ];
